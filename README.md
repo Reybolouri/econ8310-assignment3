@@ -17,3 +17,7 @@ Some checks you can make on your own:
 - Does your script train a neural network on the assigned data?
 - Did your script save your model?
 - Do you have separate code to import your model for use after training?
+
+
+
+
