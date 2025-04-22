@@ -103,7 +103,7 @@ def execute_training():
             loss.backward()
             optimizer.step()
 
-        # After each epoch evaluate on test set 
+        # After each epoch evaluate on test set.
         model.eval()
         correct = total = 0
         with torch.no_grad():
@@ -123,4 +123,3 @@ def execute_training():
 
 if __name__ == '__main__':
     execute_training()
-
